@@ -1,38 +1,38 @@
 # Linux File System Simulation
-# Built using python
+## Built using python
 
-# Below are the valid commands and their syntax
+## Below are the valid commands and their syntax
 
-# exit 
+### exit 
   exits the file system program 
-  # syntax: exit
+  ### syntax: exit
 
 
-# ls
+### ls
   lists all the files on the disk
-  # syntax: ls
+  ### syntax: ls
 
-# vi
+### vi
   creates a new file if the file does not exist else a prompt is shown to edit the existing file
-  # syntax: vi <file_name_with_extension>
+  ### syntax: vi <file_name_with_extension>
 
-# del
+### del
   deletes the mentioned file
-  # syntax: del <file_name_with_extension>
+  ### syntax: del <file_name_with_extension>
 
-# seek
+### seek
   moves the pointer of the file to a given position and prints data from that position to the end
-  # syntax: seek <file_name_with_extension> <pointer_position>
-  # gives an error if the position of the cursor goes out of bounds
+  ### syntax: seek <file_name_with_extension> <pointer_position>
+  ### gives an error if the position of the cursor goes out of bounds
 
-# cat
+### cat
   prints the contents of the file
-  # syntax: cat <file_name_with_extension>
+  ### syntax: cat <file_name_with_extension>
 
-# clear
+### clear
   clears the terminal
-  # syntax: clear
+  ### syntax: clear
 
-# help
+### help
   lists all the commands
-  # syntax: help
+  ### syntax: help
